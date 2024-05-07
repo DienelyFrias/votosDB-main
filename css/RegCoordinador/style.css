@@ -1,0 +1,179 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8fafb;
+  overflow-x: hidden;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+a {
+  transition: .3s all ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content {
+  padding: 4rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Nombre,
+.Telefono,
+.Cedula,
+.Municipio {
+  overflow: hidden;
+  padding: 15px;
+  border-bottom: 1px solid #e6edf1;
+  background: #edf2f5;
+  border-radius: 15px;
+}
+
+.Nombre label,
+.Telefono label,
+.Cedula label,
+.Municipio label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: .3s all ease;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.Nombre input,
+.Telefono input,
+.Cedula input,
+.Municipio select {
+  background: transparent;
+  padding: 0;
+  font-size: 20px;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+}
+
+
+.Nombre img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: auto;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.Telefono img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 39px; 
+  height: auto;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.Cedula img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px; 
+  height: auto;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.Municipio img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+  height: auto;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+
+.Nombre input[type="text"],
+.Telefono input[type="number"],
+.Cedula input[type="number"],
+.Municipio select {
+  padding-left: 45px;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 100%; 
+  max-width: 950px;
+  height: 60px; 
+  font-size: 24px; 
+  border-radius: 10px;
+}
+
+.form-row,
+.form-group {
+  flex: 1; 
+  margin: 0 5px; 
+}
+
+.form-group {
+  padding: 0; 
+}
+
+.form-group label {
+  position: static; 
+  transform: none;
+  font-size: 14px; 
+  color: #333; 
+}
+
+.form-group input,
+.form-group select {
+  width: 100%; 
+  font-size: 16px; 
+}
+
+.Nombre input:focus,
+.Telefono input:focus,
+.Cedula input:focus,
+.Municipio select:focus {
+  background: transparent; 
+  color: #333;
+}
+.btn-salir {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.btn-salir img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}

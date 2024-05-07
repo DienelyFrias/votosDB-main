@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.content {
+  text-align: center; 
+  display: flex; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+.btn {
+  height: 60px;
+  padding: 15px 30px; 
+  border-radius: 10px; 
+  margin: 10px; 
+  display: flex; 
+  width: auto; 
+  align-items: center; 
+  justify-content: center;
+  transition: background-color 0.3s;
+  border: 2px solid #fff; 
+}
+
+.btn:first-child { 
+  background-color: #007bff;
+}
+
+.btn:first-child:hover { 
+  background-color: #0056b3;
+}
+
+.btn:last-child { 
+  background-color: #f80b23;
+  border: 2px solid #fff; 
+}
+
+.btn:last-child:hover { 
+  background-color: #dc001f;
+}
